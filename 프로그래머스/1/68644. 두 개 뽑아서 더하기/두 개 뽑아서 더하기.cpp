@@ -14,7 +14,6 @@ vector<int> solution(vector<int> numbers) {
     }
 
     vector<int> answer(sumSet.begin(), sumSet.end());
-    sort(answer.begin(), answer.end());
 
     return answer;
 }
